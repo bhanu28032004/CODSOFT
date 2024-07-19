@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Merienda;
+}
+.socialmedia-acc ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia-acc ul li{
+    align-self: center;
+    margin: 0.8rem 0.4rem;
+}
+.size{
+    height: 30px;
+    width: 30px;
+}
+.button{
+    border-radius: 5px;
+    margin-top: 1rem;
+    color:white;
+    padding:0.8rem;
+    font-weight: 500;
+    background-color: #890380;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+.btn{
+    margin: 1rem;
+    margin-left: 6.5rem;
+}
+.techno{
+    height: 60px;
+    width: 60px;
+}
+.achievements{
+    height: 300px;
+    width: 300px;
+    margin: 1rem;
+}
+.circum{
+    height: 20px;
+    width: 20px;
+    margin: 0.5rem;
+}
+.area{
+    height: auto;
+    width: 335px;
+}
+p{
+    color: grey;
+    margin: 0.5rem;
+    line-height: 1.8rem;
+    font-size:larger;
+}
+header{
+    margin: 1rem;
+}
+header .name{
+    width: 330px;
+    height: 55px;
+    font-family:Merienda;
+    margin: 1rem;
+    font-size: x-large;
+    text-align: center;
+    line-height: 3.4rem;
+}
+header .nav .name span{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: Merienda;
+}
+header .components ul{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+}
+header .components ul li{
+    padding: 0.5rem;
+}
+header .components ul li a{
+    text-decoration: none;
+    color: black;
+}
+header .components ul li a:hover{
+    text-decoration: underline;
+}
+header .what-im{
+    margin: 1rem;
+}
+header .what-im h1{
+    margin: 0.5rem;
+}
+header .what-im h1 .role{
+    font-size: 3rem;
+}
+span{
+    font-size: xx-large;
+    font-weight: 900;
+    color: #890380;
+}
+main .one .left{
+    margin: 1rem;
+}
+main .one .left h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+main .one .right{
+    height: 320px;
+    width: 247px;
+    margin-left: 4.5rem;
+}
+main .one .right img{
+    height: 315px;
+    width: 242px;
+    border-radius: 50%;
+    border: 10px solid rgba(138, 43, 226, 0.7);
+}
+main .two{
+    margin: 1rem;
+}
+main .two .left img{
+    margin: 1rem;
+}
+main .two .right h2, h3{
+    margin: 0.5rem;
+}
+main .two .right .technologies ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+}
+main .two .right .technologies ul li .techno{
+    margin: 0.3rem;
+}
+main .three{
+    margin: 1rem;
+}
+main .three .left h2{
+    margin: 0.5rem;
+}
+main .three .left .bars{
+    margin:2rem;
+}
+.bars div{
+    margin-bottom: 1rem;
+}
+.bars .bar .bar-bg{
+    flex: 1;
+    height: 1rem;
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 1rem;
+}
+.bars .bar .bar-bg .bar-fill{
+    height: 100%;
+    background-color: rgba(138, 43, 226, 0.5);
+    border-radius: 30px;
+}
+main .three .right img{
+    margin: 1rem;
+}
+main .four{
+    margin: 1rem;
+}
+main .four h2{
+    margin: 0.5rem;
+}
+main .four .cards .card{
+    margin: 1rem;
+    box-shadow: 1px 5px 5px 0px grey;
+    list-style: none;
+}
+main .four .cards .card h4{
+    margin: 0.5rem;
+    font-size: larger;
+}
+main .four .cards .card h4 a{
+    text-decoration: none;
+    color: black;
+}
+main .four .cards .card h4 a:hover{
+    text-decoration: underline;
+}
+main .four .cards .card h5{
+    color: grey;
+    font-size: medium;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+main .four .cards .card .small-line .list ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+main .five{
+    margin: 1rem;
+}
+main .five h2{
+    margin: 0.5rem;
+}
+main .five .cardsOne .carde, .cardsTwo .carde{
+    margin: 1rem;
+    box-shadow: 1px 5px 5px 0px grey;
+    list-style: none;
+    text-align: center;
+}
+main .five .cardsOne a, main .five .cardsTwo a{
+    text-decoration: none;
+}
+main .five .cardsOne .carde h3{
+    font-size: x-large;
+    font-weight: 600;
+}
+main .five .cardsOne .carde ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+}
+main .five .cardsOne .carde ul li h6{
+    margin: 0.5rem;
+    font-size: small;
+}
+main .five .cardsOne .carde h6{
+    font-size: small;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+main .six{
+    margin: 1rem;
+}
+main .six h2{
+    margin: 0.5rem;
+}
+main .six a{
+    text-decoration: none;
+}
+main .seven{
+    margin: 1rem;
+}
+main .seven h2{
+    margin: 0.5rem;
+}
+.seven table {
+    border: 2px solid #38454D;
+    border-collapse: collapse;
+    margin-left: 0.8rem;
+}
+.seven table tr td{
+    padding: 1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: larger;
+}
+main .eight{
+    height: 25vh;
+    background: linear-gradient(to bottom left, #aa1155,#880044,#dd1155,#ffee88, #00cc99);
+}
+main .eight h2{
+    padding: 2rem;
+}
+main .eight .socialmedia-acc li a{
+    color:#38454D;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 600;
+}
+@media screen and (min-width:700px){
+    header .components ul{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    main .one{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .socialmedia-acc ul{
+        justify-content: left;
+    }
+    main .one .left{
+        margin: 1.5rem;
+    }
+    main .one .right{
+        height: 320px;
+        width: 247px;
+        margin-left:1.3rem;
+        margin-top: 0.7rem;
+    }
+    main .one .right img{
+        height: 315px;
+        width: 242px;
+        border-radius: 50%;
+        border: 10px solid rgba(138, 43, 226, 0.7);
+    }
+    main .two{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    main .two .left{
+        margin-top: 10rem;
+    }
+    main .two .left img{
+        margin: 0;
+        height: 270px;
+        width: 396px;
+    }
+    main .two .right .technologies ul li .techno{
+        margin: 0.5rem 0 0 1.2rem;
+    }
+    main .three {
+        display: grid;
+        grid-template-columns: 55% 45%;
+    }
+    main .three .right img{
+        height: 180px;
+        width: 264px;
+        margin: 0;
+        margin-top: 5rem;
+    }
+    main .four .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .five{
+        margin: 0.3rem;
+    }
+    main .five .cardsOne, .cardsTwo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .five .cardsOne .carde, .cardsTwo .carde{
+        margin: 0.4rem;
+    }
+    main .five .cardsOne a .carde{
+        height: 670px;
+        width: auto;
+        margin: 0.5rem;
+    }
+    main .five .cardsTwo a .carde{
+        height: 440px;
+        width: auto;
+    } 
+    main .seven{
+        display: flex;
+    }
+    .seven .sevenOne{
+        background-image: url("./images/laptop.gif");
+        background-position: center;
+        background-size: cover;
+    }
+    .seven table tr td{
+        padding: 0.2rem;
+        font-size: larger;
+    }
+    main .eight .socialmedia-acc ul{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width:1200px){
+    header .nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    header .name{
+        height: 100px;
+        width: max-content;
+        font-family:Merienda;
+        margin: 1rem;
+        font-size: xx-large;
+        line-height: 6rem;
+    }
+    header .nav .name span{
+        font-size: 4rem;
+        font-weight: 900;
+        font-family: Merienda;
+    }
+    main .one .left h1{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    main .one .left p{
+        margin-bottom: 2rem;
+    }
+    .socialmedia-acc ul li{
+        margin: 1rem;
+    }
+    main .one .right{
+        height: 320px;
+        width: 247px;
+        margin-left:7.5rem;
+        margin-top: 0.7rem;
+    }
+    main .one .right img{
+        height: 315px;
+        width: 242px;
+        border-radius: 50%;
+        border: 10px solid rgba(138, 43, 226, 0.7);
+    }
+    main .two .left{
+        margin-top: 4rem;
+    }
+    main .five .cardsOne .carde, .cardsTwo .carde{
+        margin:1rem 3rem;
+    }
+    main .five .cardsOne a .carde{
+        height: 570px;
+        width: auto;
+        margin: 0.5rem;
+    }
+    main .five .cardsTwo a .carde{
+        height: 440px;
+        width: auto;
+    } 
+    main .six{
+        background: url("./images/owl.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right 30px;
+    }
+    main .seven{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .seven table tr td{
+        padding: 0.5rem;
+        font-size: larger;
+    }
+    main .eight{
+        height: 40vh;
+    }
+    main .eight .socialmedia-acc ul{
+        justify-content: space-evenly;
+    }
+}
